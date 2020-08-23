@@ -16,6 +16,5 @@ Go to "Databases" find in the top menu bar
 Then the box where it says "Database name", you're going to put "wordpress".
 Then click create.
 
-3. Once you checkmark the box below and continue, this script
-will update a few more things to prepare Wordpress and you 
-should be on your way.
+3. Click checkmark below and click OK, you'll be directed to your web browser.
+   Continue there...
