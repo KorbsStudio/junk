@@ -5,7 +5,7 @@ echo "# Installing font"
 sudo unzip inter.zip
 echo "# Switching font"
 gsettings set org.gnome.desktop.interface document-font-name 'Inter Regular 10'
-gsettings set org.gnome.desktop.interface default-font-name 'Inter Regular 9'
+gsettings set org.gnome.desktop.interface font-name 'Inter Regular 9'
 gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Inter Bold 9'
 echo "# Cleaning" ;
 cd /usr/share/korbs-studio/
