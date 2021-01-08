@@ -1,14 +1,15 @@
     (
-      echo "# Test 1..."
-      echo "# Test 11..."
-      echo "# Test 12..."
-      echo "# Test 13..."
-      echo "# Test 14..."
-      echo "# Test 15..."
-      echo "# Test 16..."
-      echo "# Test 17..."
-      echo "# Test 18..."
-      echo "# Test 19..."
+      echo "# Downloading..."
+      sudo mkdir /usr/share/korbs-studio/
+      cd /usr/share/korbs-studio/
+      sudo wget "https://raw.githubusercontent.com/KorbsStudio/add-new-dark-theme-to-5.1.7/master/sh-files/install.sh"
+      cd /usr/share/icons/
+      sudo wget "https://github.com/KorbsStudio/junk/raw/master/eOSDark.png"
+      echo "# Adding to application menu"
+      sleep 1 ;
+      cd /usr/share/applications/
+      sudo wget "https://raw.githubusercontent.com/KorbsStudio/junk/master/theme-install.desktop"
+      echo "Run elementary OS 6.0 Theme Installer from your applications menu"
     ) |
 zenity --progress --title "elementary OS 6.0 Dark Theme" --pulsate \
---width 500 --text "Preparing to install elementary OS 6.0 Dark Theme..." --percentage=0
+--width 400 --text "Preparing..." --percentage=0
