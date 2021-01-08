@@ -1,6 +1,6 @@
 echo "# Downloading font"
 cd /usr/share/fonts
-sudo wget "https://raw.githubusercontent.com/KorbsStudio/add-new-dark-theme-to-5.1.7/master/font/inter.zip"
+sudo wget "https://github.com/KorbsStudio/add-new-dark-theme-to-5.1.7/raw/master/font/inter.zip"
 echo "# Installing font"
 sudo unzip inter.zip
 echo "# Switching font"
