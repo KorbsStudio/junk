@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=elementary OS 6.0 Theme Installer
 StartupWMClass=eo2
-Exec=sh /usr/share/korbs-studio/test.sh
+Exec=sh /usr/share/korbs-studio/install.sh
 Icon=eOSDark
 Type=Application
 Categories=System;
